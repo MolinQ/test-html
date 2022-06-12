@@ -14,7 +14,7 @@ header{
     display: flex;
 }
 
-img {
+.header__logo img {
   border-radius: 60%;
     width: 100%;
     max-width: 250px;
@@ -59,14 +59,12 @@ margin-top: 0.24em;
 span {
     color: #daa818;
 }
-li {
-    list-style-type: none;
-}
 
 .list{
     display: block;
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
     
     margin: 0;
     padding-left: 0;
@@ -85,12 +83,155 @@ hr {
 }
 
 .main{
-    height: 25vh;
     width: 100%;
+
 }
 
 .aboutMe{
+    padding: 1.5em;
     text-align: center;
+    
+}
+
+.skills{
+background-color:#333534;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+
+
+
+}
+
+.skills h2 {
+    text-align: center; 
+
+}
+
+.skills ul {
+    padding: 0;
+    margin: 0;
+    
+    
+    
+}
+
+.skills li {
+    padding: 5px;
+    
+}
+
+.CodeExample {
+    text-align: center;
+    
+    
+}
+
+.CodeExample h2 {
+    color: #daa818;
+}
+
+.CodeExample pre {
+    margin-right: 10em;
+    
+}
+
+code {
+   
+}
+
+.education {
+    background-color:#333534;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.education h2 {
+    text-align: center;
+    color: #daa818;
+}
+
+.education ul {
+    padding: 0;
+    margin: 0;
+}
+
+.education li {
+    padding: 5px;
+}
+
+.aboutMe h2 {
+    color: #daa818;
+}
+
+.skills h2 {
+    color: #daa818;
+}
+
+.languages {
+    background-color:#333534;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:#313131;
+
+}
+
+.languages h2 {
+    color: #daa818;
+}
+
+.languages li {
+    padding: 5px;
+}
+
+.languages ul {
+    padding: 0;
+    margin: 0;
+}
+
+.list b {
+    color: #daa818;
+}
+
+.footer {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    background-color: #333534;
+    
+}
+
+.footer h5 {
+    margin: 5px;
+
+}
+
+
+
+.footer ul {
     display: flex;
     justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer__link__website img{
+    width: 50px;
+    
+  
+}
+
+.footer__link__instagram img{
+    width: 30px;
+}
+
+.footer__link__github img{
+    width: 30px;
 }
